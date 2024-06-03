@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("CounterPics/Aru_Portrait.png");
+    background-image: url("./CounterPics/Aru_Portrait.png");
     background-size:370px;
     background-color: yellow;
     background-repeat: no-repeat;
