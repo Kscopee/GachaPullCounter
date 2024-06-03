@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("CounterPics/Aru_Portrait.png");
+    background-size:370px;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+.pull-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pull-container header{
+    margin: 5px
+}
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.counter-container h2{
+    margin: 5px
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-container button {
+    margin: 5px
+}
+header {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: rgb(255, 255, 0);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: 10;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2em;
+    padding-bottom: 10px;
+    font-size: 50px;
+
+}
+h2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 0);
+}   
+p {
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.945);
+    border: none;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+button {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
+button:hover {
+    font-size: 1.1em;
+}
+p:hover {
+    font-size: 2.1em;
+    background-color: rgb(0, 0, 0);
+}
+#pull-btn {
+    background: rgba(10, 68, 228, 0.863);
+}
+#tenpull-btn {
+    background: rgb(223, 10, 10, 0.863);
+}
+#save-btn {
+    background: rgb(11, 173, 11, 0.863);
+}
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+}
